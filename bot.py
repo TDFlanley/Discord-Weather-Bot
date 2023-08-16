@@ -1,3 +1,4 @@
+
 import discord
 from discord.ext import commands
 import requests
@@ -52,7 +53,7 @@ async def weather(ctx):
 
 
 def get_weather_data(zip_code):
-    api_key = "30700dc5de76810bf643a034e64f707b"
+    api_key = "your api key goes here"
     url = f"http://api.openweathermap.org/data/2.5/weather?zip={zip_code}&appid={api_key}&units=imperial"
 
     try:
@@ -102,5 +103,5 @@ def get_weather_data(city):
 
 
 # Run the bot
-bot.run("MTEyNDA4MTU4NzE3MzE5NjA3MQ.G63BoA.wUVGJvslYcWenNn4MhyG3oyIPQXu55Yywr6m74")
+bot.run("Your bot token goes here")
 
