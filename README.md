@@ -10,21 +10,20 @@ Installation
 
     Clone the repository:
 
-    bash
+bash
+    git clone https://github.com/yourusername/discord-weather-bot.git
+    cd discord-weather-bot
 
-git clone https://github.com/yourusername/discord-weather-bot.git
-cd discord-weather-bot
 
 Install required packages:
 
-bash
-
+    bash
     pip install discord.py requests
 
 Usage
 
-    Replace YOUR_TOKEN_HERE in the code with your Discord bot token.
-    Run the bot using the following command:
+Replace YOUR_TOKEN_HERE in the code with your Discord bot token.
+Run the bot using the following command:
 
     bash
 
