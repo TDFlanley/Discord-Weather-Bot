@@ -8,28 +8,52 @@ The bot allows users to fetch weather data for a specific location or compare we
 Getting Started
 Installation
 
-    Clone the repository:
+Clone the repository:
 
-bash
+    bash
     git clone https://github.com/yourusername/discord-weather-bot.git
     cd discord-weather-bot
 
 
-Install required packages:
+Setting Up a Virtual Environment and Getting Started with discord.py
+
+        Open the integrated terminal in Visual Studio Code 
+
+Navigate to Your Project:
+
+        In the terminal, navigate to the location of your Python project using the cd command
+
+Create a virtual environment using the following command:
+
+        python -m venv venv
+
+Activate the Virtual Environment:
+
+On Windows:
+
+    .\venv\Scripts\activate
+
+On macOS/Linux:
 
     bash
-    pip install discord.py requests
+
+    source venv/bin/activate
+
+Install discord.py:
+
+With the virtual environment activated, install the discord.py library using the following command:
+
+    pip install discord.py
 
 Usage
 
-Replace YOUR_TOKEN_HERE in the code with your Discord bot token.
+Replace API keys and Discord bot token values with your own.
 Run the bot using the following command:
 
     bash
 
     python bot.py
 
-    Invite the bot to your Discord server and start using it!
 
 Features
 
