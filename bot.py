@@ -53,7 +53,7 @@ async def weather(ctx):
 
 
 def get_weather_data(zip_code):
-    api_key = "your api key goes here"
+    api_key = "your api key goes here!"
     url = f"http://api.openweathermap.org/data/2.5/weather?zip={zip_code}&appid={api_key}&units=imperial"
 
     try:
