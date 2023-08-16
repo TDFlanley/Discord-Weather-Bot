@@ -1,7 +1,7 @@
 # Discord-Weather-Bot
 Discord Weather Bot
 
-Welcome to the Discord Weather Bot project! This is a simple bot that provides weather information using the OpenWeatherMap API.
+Welcome to my Discord Weather Bot project! This is a simple bot that provides weather information using the OpenWeatherMap API.
 The bot allows users to fetch weather data for a specific location or compare weather between Temecula and Ontario California.
 
 
